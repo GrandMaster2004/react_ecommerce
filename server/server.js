@@ -29,10 +29,10 @@ mongoose
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-// http://localhost:5173
+// http://localhost:5173 https://react-ecommerce-self-three.vercel.app
 app.use(
   cors({
-    origin: "https://react-ecommerce-self-three.vercel.app/",
+    origin: "https://react-ecommerce-self-three.vercel.app/auth/login",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
