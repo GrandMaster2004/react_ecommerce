@@ -32,7 +32,7 @@ const PORT = process.env.PORT || 5000;
 // http://localhost:5173
 app.use(
   cors({
-    origin: "*",
+    origin: "https://react-ecommerce-self-three.vercel.app/",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
